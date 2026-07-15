@@ -44,8 +44,8 @@
     - [Option#1: Netlify](#deploying---option-1-netlify)
     - [Option#2: Vercel](#deploying---option-2-vercel)
     - [Option#3: Docker](#deploying---option-3-docker)
-    - [Option#4: Source](#deploying---option-4-from-source)
-    - [Option#5: Render](#deploying---option-5-render)
+    - [Option#4: Render](#deploying---option-4-render)
+    - [Option#5: Source](#deploying---option-5-from-source)
   - [Configuration Options](#configuring)
   - [Developer Setup](#developing)
 - **[Community](#community)**
@@ -893,7 +893,15 @@ You can get the Docker image from:
 
 </details>
 
-### Deploying - Option #4: From Source
+### Deploying - Option #4: Render
+
+Click the button below, to deploy to Render 👇
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy-template/api/github/start?template_repo=web-check-render-template)
+
+Uses the official [`lissy93/web-check`](https://hub.docker.com/r/lissy93/web-check) image on a Standard web service. Optional enrichment API keys can be added after deploy.
+
+### Deploying - Option #5: From Source
 
 Install the prerequisites listed in the [Developing](#developing) section, then run:
 
@@ -904,14 +912,6 @@ yarn install                                        # Install the NPM dependenci
 yarn build                                          # Build the app for production
 yarn serve                                          # Start the app (API and GUI)
 ```
-
-### Deploying - Option #5: Render
-
-Click the button below, to deploy to Render 👇
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy-template/api/github/start?template_repo=web-check-render-template)
-
-Uses the official [`lissy93/web-check`](https://hub.docker.com/r/lissy93/web-check) image on a Standard web service. Optional enrichment API keys can be added after deploy.
 
 ---
 
