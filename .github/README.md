@@ -909,13 +909,9 @@ yarn serve                                          # Start the app (API and GUI
 
 Click the button below, to deploy to Render 👇
 
-[![Deploy to Render](https://img.shields.io/badge/Deploy-Render-%2346E3B7?style=for-the-badge&logo=render&labelColor=1e0e41 "Deploy Web-Check to Render, via Blueprint")](https://render.com/deploy?repo=https://github.com/ojusave/web-check)
-
-This deploys from **this fork**, which includes a [`render.yaml`](../render.yaml) Blueprint (official `lissy93/web-check` Docker image on a Standard web service). Upstream may not have that file yet. Optional enrichment API keys can be set after deploy.
-
-Gallery / one-click template (also self-contained, does not need upstream):
-
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy-template/api/github/start?template_repo=web-check-render-template)
+
+Uses the official [`lissy93/web-check`](https://hub.docker.com/r/lissy93/web-check) image on a Standard web service. Optional enrichment API keys can be added after deploy.
 
 ---
 
