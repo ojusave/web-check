@@ -45,6 +45,7 @@
     - [Option#2: Vercel](#deploying---option-2-vercel)
     - [Option#3: Docker](#deploying---option-3-docker)
     - [Option#4: Source](#deploying---option-4-from-source)
+    - [Option#5: Render](#deploying---option-5-render)
   - [Configuration Options](#configuring)
   - [Developer Setup](#developing)
 - **[Community](#community)**
@@ -903,6 +904,14 @@ yarn install                                        # Install the NPM dependenci
 yarn build                                          # Build the app for production
 yarn serve                                          # Start the app (API and GUI)
 ```
+
+### Deploying - Option #5: Render
+
+Click the button below, to deploy to Render 👇
+
+[![Deploy to Render](https://img.shields.io/badge/Deploy-Render-%2346E3B7?style=for-the-badge&logo=render&labelColor=1e0e41 "Deploy Web-Check to Render, via Blueprint")](https://render.com/deploy?repo=https://github.com/ojusave/web-check)
+
+This uses the [`render.yaml`](../render.yaml) Blueprint: official `lissy93/web-check` Docker image on a Standard web service. Optional enrichment API keys can be set after deploy.
 
 ---
 
